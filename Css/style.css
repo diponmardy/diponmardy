@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0; 
+    outline: 0;
+    text-decoration: 0;
+}
+body{
+    background-color: darkseagreen;
+}
+#admin-box{
+    background-color: darkkhaki;
+    color: aquamarine;
+    width: 50%;
+    margin: 10% auto;
+    padding: 25px;
+    text-align: center;
+}
+#admin-box h1{
+font-size: 35px;
+line-height: 35px;
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+}
+#admin-box img{
+    display: block;
+    text-align: center;
+    width: 75px;
+    margin: auto;
+}
+input,
+label{
+    display: block;
+}
+form{
+    margin-top: 28px;
+}
+label{
+    margin-top: 28px;
+}
+label{
+    line-height: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+}
+input::placeholder{
+    color: black;
+}
+input[type=submit]{
+    width: 50%;
+    margin: 20px auto;
+    text-transform: uppercase;
+}
+input[type=submit]:hover{
+    background-color: azure;
+    color: darkkhaki;
+}
+.pg{
+    font-size: 17px;
+    line-height: 17px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pg a{
+    text-transform: capitalize;
+    color: darkslategrey;
+}
+.pg a :hover{
+    color: olivedrab;
+}
